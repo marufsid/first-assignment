@@ -93,7 +93,7 @@ nav {
   text-decoration: none;
 }
 
-#card-Section {
+#card-section {
   padding: 100px 120px;
   justify-items: center;
   margin: 0 auto;
@@ -108,6 +108,7 @@ nav {
   font-style: Bold;
   font-size: 48px;
   font-weight: 700;
+  color: #001931;
 }
 
 
@@ -116,10 +117,24 @@ nav {
   gap: 24px;
   justify-content: center;
   align-items: center;
+  justify-items: center;
 }
 
 .card {
   padding: 70px 12px;
+  box-shadow: 0 0 8px 0 #6273823f;
+}
+
+.fourth-card{
+  padding: 58px 12px;
+  box-shadow: 0 0 8px 0 #6273823f;
+}
+
+.fourth-card h3{
+  color: #001931;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 18px 0;
 }
 
 .icon {
@@ -132,6 +147,7 @@ nav {
   color: #001931;
   font-size: 24px;
   font-weight: 600;
+  padding: 20px 0;
 }
 
 .paragraphs {
@@ -163,3 +179,29 @@ nav {
   gap: 8px;
   margin-bottom: 10px;
 }
+
+.forth-container p {
+  margin: 20px 0;
+}
+
+.box-shadow{
+  box-shadow: 0 0 10px 20px #00000015;
+}
+
+footer {
+  background-color: #001931;
+  padding: 100px 120px 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ .text-center {
+  text-align: center;
+ }
+
+ .vertical-gap {
+  margin: 50px 0 40px;
+ }
